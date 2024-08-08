@@ -1,13 +1,15 @@
 # HandGestureBot (Work in Progress Project)
 Application to detect hand gesture and landmark locations in order to interact with Arduino robots.
 
+
+
 ## Setup & Run
 
 ### Pre-requisites
 1. Download/clone this repository locally.
-2. Make sure you have Python 3.x and pip installed on your machine. It's advisable to use a virtual enviornment for the same.
+2. Make sure you have Python 3.x and pip installed on your machine. It's advisable to use a virtual enviornment for the same. Also you need Arduino IDE on your machine and corresponding board installed for your hardware.
 3. Make sure you have InfluxDB installed locally or cloud account (free one is good) as you will need to provide the credentials for the same. It's best to create a .env file and store the credentials there.
-4. Connect an Arduino device (I used Arduino Uno) to your computer over USB and make sure it has a servo motor attached to it. Take note of the pin number for the servo motor, in my example I've attached to pin 8. To find out the port address for Arduino device you can use this command `
+4. Connect an Arduino device (I used Arduino Uno) to your computer over USB and make sure it has a servo motor attached to it. Take note of the pin number for the servo motor, in my example I've attached to pin 8. To find out the port address for Arduino device you can use this command `python -m serial.tools.list_ports`. Open the "arduino" director and run the "arduino" sketches.
 5. Alternatively you can also connect to arduino over 'WebSerial' using a browser, test code for the same is [here](https://editor.p5js.org/suyashjoshi/sketches/Ii6cmfKro)
 6. Install the following python modules using pip: `pip install influxdb3-python mediapipe pyserial python-dotenv opencv-python`
 
