@@ -19,8 +19,9 @@ Application to detect hand gesture in order to interact with simple Arduino base
 
 ### Running the app
 
-Firstly, open "GestureRecognizer.py" and update the main function with the correspending enviornment variables and value for "MotorController port address".
-This app is mianly a python project which can be started by typing `python GestureRecognizer.py` and you should be able to see your webcam. Now make a few hand gestures and notice it controlling the arduino motors or robot if you have one connected.
+- Firstly, open "GestureRecognizer.py" and update the main function with the correspending enviornment variables and value for "MotorController port address".
+- Start the app by typing `python GestureRecognizer.py` and you should be able to see your webcam.
+- Now make a few hand gestures and notice it controlling the arduino motors or robot if you have one connected.
 
 ### Testing Serial connection
 
