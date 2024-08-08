@@ -1,7 +1,5 @@
 # Connect to Arduino over Serial protocol
 # Author: Suyash Joshi
-# License : MIT
-# Copyright: InfluxData
 
 import serial
 

@@ -1,3 +1,6 @@
+# Connect to Arduino over Serial protocol
+# Author: Suyash Joshi
+
 import serial
 
 ser = serial.Serial(port = "/dev/cu.usbmodem70041DD465902", baudrate = 115200)

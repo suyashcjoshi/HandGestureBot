@@ -1,7 +1,5 @@
 # Sample application to demonstrate hand recognition using Mediapipe to control a robot and save data in InfluxDB
 # Author: Suyash Joshi
-# License : MIT
-# Copyright: InfluxData
 
 import cv2
 

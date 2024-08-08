@@ -1,9 +1,5 @@
 # Write to InfluxDB
 # Author: Suyash Joshi
-# License : MIT
-# Copyright: InfluxData
-
-# influxdb_writer.py
 
 import influxdb_client
 from influxdb_client.client.write_api import SYNCHRONOUS
