@@ -1,6 +1,8 @@
 # HandGestureBot (Work in Progress Project)
 Application to detect hand gesture and landmark locations in order to interact with Arduino robots.
 
+**Presentation**: https://www.slideshare.net/slideshow/arduino-controlled-robot-using-hand-gestures-using-python/270870080
+
 ![alt text](https://github.com/suyashcjoshi/HandGestureBot/blob/main/misc/pic.png?raw=true)
 
 
