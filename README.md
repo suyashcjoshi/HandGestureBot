@@ -23,3 +23,7 @@ This app is mianly a python project which can be started by typing `python Gestu
 ### Testing Serial connection
 
 Run the program `python test-serial.py`
+
+### Contact
+
+Please tag me on social media for any questions or if you build upon this, love to see [@suyashcjoshi](https://x.com/suyashcjoshi)
